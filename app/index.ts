@@ -12,7 +12,7 @@ console.log({voiture1, voiture2});
 
 voiture2.setNbRoues(-5);
 console.log({voiture1, voiture2});
-
+5555555
 // appel de l'accesseur
 console.log(voiture2.nbRoues);
 
