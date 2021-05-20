@@ -1,0 +1,15 @@
+{
+  "name": "demo-poo",
+  "version": "1.0.0",
+  "description": "Démonstration de la programmation orienté objet avec TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
