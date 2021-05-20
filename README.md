@@ -12,6 +12,24 @@ Elle permettent d'indiquer qu'un objet peut avoir des propriétés (attributs) e
 
 Les Objets sont une espèce de super variable avec leurs propres variables (attributs) et leurs propres fonction (méthodes).
 
+### La visibilité
+
+Les méthodes et attributs de l'objet ont une visibilitée:
+
+- `public`
+- `private`
+- `protected`
+
+Cette visibilité défini si l'accès à une méthode ou un attribut est possible en dehors de la classe ou il ou elle est déclaré.
+
+private: Accessible à l'intérieur de la classe **uniquement**.
+protected: concerne principalement l'héritage. L'attribut ou la méthode est visible dans la classe et pour les enfants de la classe. Mais pas en dehors.
+public: visible partout, en dehors de la classe comme à l'intérieur.
+
+### Attributs et méthodes static
+
+Le mot clé static attache un attribut ou une méthode directement à la classe (et non à l'objet de la classe). Il n'y a donc pas besoin d'instancier un objet pour utiliser une méthode static. Les attribut static sont aussi accéssible sans instance d'objet et permettent par exemple de partager une variable entre toutes les instance de la classe.
+
 ## Les principes de l'orienté Objet
 
 ### Encapsulation
